@@ -1,0 +1,1170 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	width: 1440px;
+	margin: auto;
+
+	background: white;
+
+	/*overflow: hidden;  /*Hide scrollbars */*/
+}
+.khoiTren
+{
+	width: 100%;
+	/*margin: auto;*/
+}
+.khunga	
+{	
+	width: 100%;
+	height: 141px;
+	display: flex;
+	align-items: center;
+	background: #FFFFFF;
+
+}
+.tieude
+{
+	position: absolute;
+	width: 122px;
+	height: 40px;
+	left: 100px;
+	top: 52px;
+	text-decoration: none;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 37px;
+	/*display: flex;*/
+	/*align-items: center;*/
+	color: #161616;
+}
+.a1
+{
+	position: absolute;
+	width: 129.79px;
+	height: 22.14px;
+	left: 272.19px;
+	top: 58.26px;
+}
+.a2
+{
+	position: absolute;
+	width: 86.86px;
+	height: 22.14px;
+	left: 437.92px;
+	top: 58.26px;
+}
+.a3
+{
+	position: absolute;
+	width: 45.92px;
+	height: 22.14px;
+	left: 564.71px;
+	top: 58.26px;
+}
+.a4
+{
+	position: absolute;
+	width: 45.92px;
+	height: 22.14px;
+	left: 654.56px;
+	top: 58.26px;
+}
+.muc
+{
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+	color: #161616;
+	opacity: 0.6;
+}
+.a5
+{
+	position: absolute;
+	width: 62.04px;
+	height: 22.14px;
+	left: 1050.73px;
+	top: 58.26px;
+}
+.a6
+{
+	position: absolute;
+	width: 60.93px;
+	height: 0px;
+	left: 1108.04px;
+	top: 68.45px;
+	opacity: 0.25;
+	border: 0.5px solid #161616;
+	transform: rotate(90deg);
+}
+.a7
+{
+	position: absolute;
+	width: 76.5px;
+	height: 22px;
+	left: 1162.81px;
+	top: 39.3px;
+	background: #13A0FE;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+	/* display: flex; */
+	/* align-items: center; */
+	color: #FFFFFF;
+	padding: 18.64px 26.02px;
+	/*text-align: center;*/
+} /*End khunga*/
+
+.khungb
+{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	left: -1px;
+	top: 141px;
+	background: linear-gradient(259.16deg, #13A0FE 0%, #0E9AF7 78.07%, #129EFC 78.07%);
+}
+.dienthoai .khungdienthoai1
+{
+	position: absolute;
+	top: 35px;
+	left: 165.02px;
+	z-index: 1;
+}
+.dienthoai .khungdienthoai2
+{
+	position: absolute;
+	top: 69px;
+	left: 198.13px;
+	z-index: 2;
+}
+.noidungb
+{
+	position: absolute;
+	width: 724px;
+	height: 303px;
+	left: 508px;
+	top: 129px;
+}
+.noidungto .b1
+{
+	position: absolute;
+	width: 724px;
+	height: 113px;
+	top: 0px;
+	font-family: 'Gotham';
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 54px;
+	color: #FFFFFF;
+	opacity: 0.9;
+}
+.noidungto .khung
+{
+	position: absolute;
+	width: 222px;
+	height: 59px;
+	top: 54px;
+	left: 263px;
+	background: #FFFFFF;
+	opacity: 0.3;
+}
+.noidungnho
+{
+	position: absolute;
+	width: 587px;
+	height: 27px;
+	top: 153px;
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+.khungicon
+{
+	position: absolute;
+	width: 408px;
+	height: 72px;
+	left: 0px;
+	bottom: 0px;
+}
+.khunggoogle
+{
+	position: absolute;
+	width: 176px;
+	height: 68px;
+	left: 0px;
+	bottom: 0px;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	margin-right: 40px;
+}
+.khungapp
+{
+	position: absolute;
+	width: 176px;
+	height: 68px;
+	right: 8px;
+	bottom: 0px;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+}
+.khungnho1 
+{
+	position: absolute;
+	width: 132.75px;
+	height: 32.62px;
+	left: 23px;
+	top: 20px;
+}
+.khungnho1 .icon1
+{
+	width: 26.38px;
+	height: 30.84px;
+	float: left;
+}
+.khungnho2 .icon2
+{
+	width: 30.3px;
+	height: 26.23px;
+	float: left;
+}
+.khungnho1 .dong1
+{
+	width: 53.77px;
+	height: 7.77px;
+	color: white;
+	font-size: 10px;
+	font-family: 'Gotham';
+	top: 20px;
+	left: 58.76px;
+	float: left;
+	margin-left: 9.38px;
+	margin-bottom: 4.44px;
+}
+.khungnho1 .dong1_2
+{
+	width: 97px;
+	height: 18.77px;
+	color: white;
+	font-size: 15.5px;
+	font-weight: 500;
+	font-family: 'Gotham';
+	top: 32.21px;
+	left: 58.76px;
+	float: left;
+	margin-left: 9.38px;
+}
+.khungnho2
+{
+	position: absolute;
+	width: 132.75px;
+	height: 32.62px;
+	left: 23px;
+	top: 20px;
+}
+.khungnho2 .dong2
+{
+	width: 93px;
+	height: 7.77px;
+	color: white;
+	font-size: 10px;
+	font-family: 'Gotham';
+	top: 20px;
+	left: 58.76px;
+	float: left;
+	margin-left: 9.38px;
+	margin-bottom: 4.44px;
+}
+.khungnho2 .dong2_2
+{
+	width: 93px;
+	height: 18.77px;
+	color: white;
+	font-size: 15.5px;
+	font-weight: 500;
+	font-family: 'Gotham';
+	top: 20px;
+	left: 58.76px;
+	float: left;
+	margin-left: 9.38px;
+	margin-bottom: 4.44px;
+} /*End khungb*/
+
+.khungc 
+{
+	position: absolute;
+	width: 100%;
+	height: 178px;
+	left: 0px;
+	top: 741px;
+
+	background: rgba(48, 48, 255, 0.2);
+}
+.khungc .logo1
+{
+	position: absolute;
+	width: 154.72px;
+	height: 115.94px;
+	left: 263px;
+	top: 8px;
+}
+.khungc .logo2
+{
+	position: absolute;
+	width: 154.72px;
+	height: 115.94px;
+	left: 515px;
+	top: 8px;
+}
+.khungc .logo3
+{
+	position: absolute;
+	width: 154.72px;
+	height: 115.94px;
+	left: 769.44px;
+	top: 8px;
+}
+.khungc .logo4
+{
+	position: absolute;
+	width: 154.72px;
+	height: 115.94px;
+	left: 1023.16px;
+	top: 8px;
+} /*End khungc*/
+
+.khoiDuoi .khoiDuoi_khunga
+{
+	position: absolute;
+	width: 972px;
+	height: 477px;
+	left: 234px;
+	top: 979px;
+}
+.khoiDuoi_khunga .khunga_text1
+{
+	position: absolute;
+	width: 658px;
+	height: 137px;
+	left: 157px;
+	top: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #161616;
+}
+.khoiDuoi_khunga .khunga_text2
+{
+	position: absolute;
+	width: 972px;
+	height: 175px;
+	top: 167px;
+
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 40px;
+
+	text-align: center;
+
+	color: #161616;
+
+	opacity: 0.6;
+}
+.khoiDuoi_khunga .khunga_icon
+{
+	position: absolute;
+	width: 436.06px;
+	height: 105px;
+	left: 268px;
+	top: 372px;
+}
+.khoiDuoi_khunga .khunga_icon .icon1
+{
+	position: absolute;
+	width: 101.03px;
+	height: 104.47px;
+	left: 0px;
+	top: 0px;
+}
+.khoiDuoi_khunga .khunga_icon .icon2
+{
+	position: absolute;
+	width: 101.03px;
+	height: 104.47px;
+	left: 111.67px;
+	top: 0px;
+}
+.khoiDuoi_khunga .khunga_icon .icon3
+{
+	position: absolute;
+	width: 101.03px;
+	height: 104.48px;
+	left: 223.35px;
+	top: 0px;
+}
+.khoiDuoi_khunga .khunga_icon .icon4
+{
+	position: absolute;
+	width: 101.03px;
+	height: 104.47px;
+	left: 335.02px;
+	top: 0px;
+}
+/*End khoiDuoi_khunga*/
+
+.khoiDuoi .khoiDuoi_khungb
+{
+	position: absolute;
+	width: 1240px;
+	height: 1618px;
+	left: 100px;
+	top: 1538px;
+	/*background: lightyellow;*/
+}
+.khoiDuoi_khungb .khungb_tieude
+{
+	position: absolute;
+	width: 658px;
+	height: 71px;
+	left: 291px;
+	top: 0px;
+
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #161616;
+}
+/*End khungb_tieude*/
+
+.khoiDuoi_khungb .khungb_khoi1
+{
+	position: absolute;
+	width: 1240px;
+	height: 461px;
+	top: 135px;
+	background: rgba(18, 158, 252, 0.1);
+}
+.khungb_khoi1 .khoi1_text
+{
+	position: absolute;
+	width: 553px;
+	height: 110px;
+	left: 50px;
+	top: 176px;
+}
+.khoi1_text .khoi1_texta
+{
+	position: absolute;
+	width: 426px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	display: flex;
+	align-items: center;
+
+	color: #161616;
+}
+.khoi1_text .khoi1_textb
+{
+	position: absolute;
+	width: 553px;
+	height: 40px;
+	bottom: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 40px;
+
+
+	color: #161616;
+
+	opacity: 0.6;
+}
+.khungb_khoi1 .khungb_khoi1_img
+{
+	position: absolute;
+	width: 542px;
+	height: 361px;
+	left: 648px;
+	top: 50px;
+
+	background: url(.jpg);
+	border-radius: 10px;
+}
+/*End khungb_khoi1*/
+
+.khoiDuoi_khungb .khungb_khoi2
+{
+	position: absolute;
+	width: 1240px;
+	height: 461px;
+	top: 646px;
+	background: rgba(18, 158, 252, 0.1);
+}
+.khungb_khoi2 .khoi2_text
+{
+	position: absolute;
+	width: 510px;
+	height: 110px;
+	left: 637px;
+	top: 176px;
+}
+.khoi2_text .khoi2_texta
+{
+	position: absolute;
+	width: 349px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	display: flex;
+	align-items: center;
+
+	color: #161616;
+}
+.khoi2_text .khoi2_textb
+{
+	position: absolute;
+	width: 510px;
+	height: 40px;
+	bottom: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 40px;
+
+
+	color: #161616;
+
+	opacity: 0.6;
+}
+.khungb_khoi2 .khungb_khoi2_img
+{
+	position: absolute;
+	width: 542px;
+	height: 361px;
+	left: 50px;
+	top: 50px;
+
+	background: url(.jpg);
+	border-radius: 10px;
+}
+/*End khungb_khoi2*/
+
+.khoiDuoi_khungb .khungb_khoi3
+{
+	position: absolute;
+	width: 1240px;
+	height: 461px;
+	top: 1157px;
+	background: rgba(18, 158, 252, 0.1);
+}
+.khungb_khoi3 .khoi3_text
+{
+	position: absolute;
+	width: 465px;
+	height: 110px;
+	left: 50px;
+	top: 176px;
+}
+.khoi3_text .khoi3_texta
+{
+	position: absolute;
+	width: 403px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	display: flex;
+	align-items: center;
+
+	color: #161616;
+}
+.khoi3_text .khoi3_textb
+{
+	position: absolute;
+	width: 465px;
+	height: 40px;
+	bottom: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 40px;
+
+
+	color: #161616;
+
+	opacity: 0.6;
+}
+.khungb_khoi3 .khungb_khoi3_img
+{
+	position: absolute;
+	width: 542px;
+	height: 361px;
+	left: 648px;
+	top: 50px;
+
+	background: url(.jpg);
+	border-radius: 10px;
+}
+/*End khungb_khoi3*/
+/*End khoiDuoi_khungb*/
+
+.khoiDuoi .khoiDuoi_khungc
+{
+	position: absolute;
+	width: 1091px;
+	height: 546px;
+	left: 170px;
+	top: 3241px;
+}
+.khoiDuoi_khungc .khungc_tieude
+{
+	position: absolute;
+	width: 162px;
+	height: 60px;
+	left: 469px;
+	top: 0px;
+
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #161616;
+}
+/*End khungc_tieude*/
+
+.khoiDuoi_khungc .khungc_khoi1
+{
+	position: absolute;
+	width: 345px;
+	height: 436px;
+	left: 0px;
+	bottom: 0px;
+	background: #129EFC;
+}
+.khungc_khoi1 .khungc_khoi1_text
+{
+	position: absolute;
+	width: 256px;
+	height: 114px;
+	left: 45px;
+	top: 76px;
+
+	font-family: 'Gotham';
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 38px;
+
+	/*display: flex;
+	align-items: center;*/
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.khungc_khoi1 .khungc_khoi1_img
+{
+	position: absolute;
+	width: 173px;
+	height: 246px;
+	left: 0px;
+	bottom: 0px;
+}
+/*.khungc_khoi1 .khungc_khoi1_gachchan
+{
+	border-bottom: 1px solid #FFFFFF;
+	margin-top: 185px;
+	margin-left: 109.5px;
+	width: 126px;
+}*/
+/*End khungc_khoi1*/
+
+.khoiDuoi_khungc .khungc_khoi2
+{
+	position: absolute;
+	width: 345px;
+	height: 436px;
+	left: 373px;
+	bottom: 0px;
+	background: #FE808C;
+}
+.khungc_khoi2 .khungc_khoi2_text
+{
+	position: absolute;
+	width: 234px;
+	height: 76px;
+	left: 55px;
+	top: 76px;
+
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+
+	/*display: flex;
+	align-items: center;*/
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.khungc_khoi2 .khungc_khoi2_img
+{
+	position: absolute;
+	width: 278px;
+	height: 239px;
+	left: 22px;
+	top: 197px;
+}
+/*End khungc_khoi2*/
+
+.khoiDuoi_khungc .khungc_khoi3
+{
+	position: absolute;
+	width: 345px;
+	height: 436px;
+	right: 0px;
+	bottom: 0px;
+	background: #65D58D;
+}
+.khungc_khoi3 .khungc_khoi3_text
+{
+	position: absolute;
+	width: 326px;
+	height: 76px;
+	left: 10px;
+	top: 76px;
+
+	font-family: 'Gotham';
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 38px;
+
+	/*display: flex;
+	align-items: center;*/
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.khungc_khoi3 .khungc_khoi3_img
+{
+	position: absolute;
+	width: 301px;
+	height: 220px;
+	left: 22px;
+	bottom: 9px;
+}
+/*End khungc_khoi3*/
+/*End khoiDuoi_khungc*/
+
+.khoiEnd
+{
+	position: absolute;
+	width: 1440px;
+	height: 507px;
+	left: 0px;
+	top: 3924px;
+}
+.khoiEnd .retangly_tren
+{
+	position: absolute;
+	width: 1440px;
+	height: 412px;
+	left: 0px;
+	top: 0px;
+
+	background: #13A0FE;
+}
+.retangly_tren .group_tren
+{
+	position: absolute;
+	width: 1124px;
+	height: 250px;
+	left: 158px;
+	top: 104px;
+}
+.group_tren .group_tren1
+{
+	position: absolute;
+	width: 138px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+}
+.group_tren1 .group_tren1_tieudeTo
+{
+	position: absolute;
+	width: 138px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.group_tren1 .group_tren1_tieudeNho
+{
+	position: absolute;
+	width: 120px;
+	height: 30px;
+	left: 0px;
+	top: 60px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.group_tren1 .tieudeNho2
+{
+	top: 100px;
+}
+.group_tren1 .tieudeNho3
+{
+	top: 140px;
+}
+.group_tren1 .tieudeNho4
+{
+	top: 180px;
+}
+.group_tren1 .tieudeNho5
+{
+	top: 220px;
+}
+/*End group_tren1*/
+
+.group_tren .group_tren2
+{
+	position: absolute;
+	width: 100px;
+	height: 250px;
+	left: 268px;
+	top: 0px;
+}
+.group_tren2 .group_tren2_tieudeTo
+{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.group_tren2 .group_tren2_tieudeNho
+{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	left: 0px;
+	top: 60px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	/* identical to box height, or 150% */
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.group_tren2 .tieudeNho2
+{
+	top: 100px;
+}
+.group_tren2 .tieudeNho3
+{
+	top: 140px;
+}
+.group_tren2 .tieudeNho4
+{
+	top: 180px;
+}
+.group_tren2 .tieudeNho5
+{
+	top: 220px;
+}
+/*End group_tren2*/
+
+.group_tren3
+{
+	position: absolute;
+	width: 316px;
+	height: 110px;
+	left: 498px;
+	top: 0px;
+}
+.group_tren3 .group_tren3_tieudeTo
+{
+	position: absolute;
+	width: 121px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.group_tren3 .group_tren3_thanhtimkiem
+{
+	position: absolute;
+	width: 316px;
+	height: 50px;
+	left: 0px;
+	bottom: 0px;
+}
+.group_tren3_thanhtimkiem_a
+{
+	position: absolute;
+	width: 245px;
+	height: 50px;
+	left: 0px;
+	bottom: 0px;
+
+	background: #FFFFFF;
+}
+.group_tren3_thanhtimkiem_b
+{
+	position: absolute;
+	width: 71px;
+	height: 50px;
+	left: 245px;
+	bottom: 0px;
+
+	background: #0070BB;
+}
+.group_tren3_thanhtimkiem_b .icontimkiem
+{
+	position: absolute;
+	width: 22px;
+	height: 16px;
+	left: 24px;
+	top: 17px;
+}
+.group_tren3_thanhtimkiem .group_tren3_tieudeNho
+{
+	position: absolute;
+	width: 115px;
+	height: 30px;
+	left: 20px;
+	top: 10px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #161616;
+
+	opacity: 0.6;
+}
+/*End group_tren3*/
+
+.group_tren4
+{
+	position: absolute;
+	width: 180px;
+	height: 234px;
+	left: 944px;
+	top: 0px;
+}
+.group_tren4 .group_tren4_tieudeTo
+{
+	position: absolute;
+	width: 136px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.group_tren4 .group_tren4_khunggoogle
+{
+	position: absolute;
+	left: 0px;
+	top: 60px;
+}
+.group_tren4 .group_tren4_khungapp
+{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+/*End group_tren4*/
+/*End group_tren*/
+/*End retangly_tren*/
+
+.khoiEnd .retangly_duoi
+{
+	position: absolute;
+	width: 1440px;
+	height: 95px;
+	left: 0px;
+	top: 412px;
+
+	background: #1D2432;
+}
+.retangly_duoi .retangly_duoi_text
+{
+	position: absolute;
+	width: 207px;
+	height: 30px;
+	left: 158px;
+	top: 32px;
+
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.retangly_duoi .group_duoi
+{
+	position: absolute;
+	width: 467px;
+	height: 30px;
+	left: 815px;
+	top: 33px;
+
+	font-family: 'Gotham';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+.group_duoi .group_duoi_tieude1
+{
+	position: absolute;
+	width: 95px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.group_duoi .group_duoi_tieude2
+{
+	position: absolute;
+	width: 111px;
+	height: 30px;
+	left: 134px;
+	top: 0px;
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.group_duoi .group_duoi_tieude3
+{
+	position: absolute;
+	width: 183px;
+	height: 30px;
+	left: 284px;
+	top: 0px;
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*End retangly_duoi*/
+/*End khoiEnd*/
+/*End body*/
